@@ -1,0 +1,25 @@
+/* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(darkgrey, grey)
+}
+
+/* Header */
+header {
+    min-height: 400px;
+    background-color: maroon;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#logo {
+    padding-left: 0px;
+}
+#logo-text{
+    color: white;
+}
+.heading-2 {
+    color: wheat;
+}
