@@ -1,0 +1,27 @@
+/* G L O B A L */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+i {
+    font-size: 3rem;
+    text-decoration-style: none;
+    color: black
+}
+
+.fa-phone-alt, .fa-envelope {
+    font-size: initial;
+}
+
+img {
+    width: 50%;
+    border-color
+}
+
+/* M O B I L E   C O N F I G */
+@media(min-width: 768px) {
+    body {
+        background-color: blanchedalmond;
+    }
+}

@@ -9,3 +9,11 @@ a {
     background-color: black;
     text-align: center;
 }
+
+body {
+    background-color: ;
+}
+
+@media(min-width: 768px) {
+
+}

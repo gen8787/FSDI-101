@@ -1,25 +1,86 @@
-/* Global */
+/* R E S E T */
 *{
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    background-image: linear-gradient(darkgrey, grey)
+    margin: 0rem;
+    padding: 0rem;
 }
 
-/* Header */
-header {
-    min-height: 400px;
-    background-color: maroon;
-    padding-left: 10px;
-    padding-top: 3px;
+html {
+    font-size: 62.5%;
 }
+
+/* G L O B A L */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* H E A D E R */
+#header {
+    background-image: url(./images/gunsight.jpeg);
+    height: 30rem;
+    background-position: left top;
+    background-size: cover;
+    border: dotted red 1px;
+}
+
 #logo {
-    padding-left: 0px;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
+
+.btn-contact {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    background-color: rgb(199, 67, 50);
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 28rem;
+}
+
+#logo-link {
+    text-decoration: none;
+    color: black;
+}
+
 #logo-text{
     color: white;
+    padding-left: 17rem;
+    padding-top: 13rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
+
+/* M A I N */
 .heading-2 {
-    color: wheat;
+    color: rgb(13, 66, 116);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#main {
+    padding-left: 1rem;
+    border: dotted red 1px;
+}
+
+/* A B O U T   M E */
+#about-me, #certs-quals, #guiding {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+/* F O O T E R */
+footer {
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: dotted red 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
