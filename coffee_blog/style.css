@@ -13,9 +13,9 @@ body {
 }
 
 h2 {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     font-weight: 700;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     margin-top: 3rem;
     margin-left: 1rem;
 }
@@ -29,6 +29,12 @@ h3{
 
 img {
     max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* H E A D E R */
@@ -57,10 +63,16 @@ img {
     }
 }
 
-#logo {
-    font-size: 4.2rem;
+.logo {
+    font-size: 3.8rem;
     color: white;
     padding-top: 3rem;
+    margin-bottom: 11rem;
+}
+
+.coffee-logo {
+    font-weight: 900;
+    color: #724F3F;
 }
 
 a.menu {
@@ -102,6 +114,22 @@ a.menu {
 }
 
 /* M A I N */
+@media(min-width:768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .courses {
+        flex-basis: calc(25% - 2rem);
+    }
+
+    .blogs {
+        flex-basis: 75%;
+    }
+}
+
 /* C O U R S E S */
 .course {
     padding-left: 1rem;
@@ -113,16 +141,24 @@ a.menu {
     margin-bottom: 2rem;
 }
 .btn-info {
-    background-color: brown;
+    background-color: #724F3F;
     width: 90%;
-    padding: 1.5rem;
+    padding: 1.25rem;
     text-transform: uppercase;
     color: white;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
+}
+
+@media(min-width:768px) {
+    .btn-info {
+        width: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
 }
 
 .btn-read {
@@ -132,4 +168,33 @@ a.menu {
 p {
     font-size: 1.8rem;
     line-height: 2;
+}
+
+/* B L O G */
+
+/* F O O T E R */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
+@media(min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .footer-menu {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2.5rem;
+    }
 }

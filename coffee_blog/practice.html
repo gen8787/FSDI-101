@@ -7,8 +7,95 @@
     <title>Practice</title>
 </head>
 <body>
-    <p>Practice</p>
-    <a href="/">Home</a>
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+    <a href="./index.html">Index</a>
+    <div class="flex-container">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        <div class="flex-item">D</div>
+        <div class="flex-item">E</div>
+        <div class="flex-item">F</div>
+        <div class="flex-item">G</div>
+        <div class="flex-item">H</div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">Element 1</div>
+        <div class="grid-item">Element 2</div>
+        <div class="grid-item">Element 3</div>
+        <div class="grid-item">Element 4</div>
+        <div class="grid-item">Element 5</div>
+        <div class="grid-item">Element 6</div>
+    </div>
+
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="breed">Breed</label>
+            <input type="text" name="breed" id="breed">
+        </div>
+        <div class="service">
+            <label for="service">Service</label>
+            <select name="service" id="service">
+                <option disabled selected>select an option</option>
+                <option value="hairCut">Hair Cut</option>
+                <option value="bath">Bath</option>
+                <option value="fullService">Full Service</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Breed</th>
+                <th>Service</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Scooby</td>
+                <td>50</td>
+                <td>Male</td>
+                <td>Dane</td>
+                <td>Full</td>
+            </tr>
+
+            <tr>
+                <td>Clifford</td>
+                <td>10</td>
+                <td>Male</td>
+                <td>Big</td>
+                <td>Bath</td>
+            </tr>
+
+            <tr>
+                <td>Lady</td>
+                <td>33</td>
+                <td>Female</td>
+                <td>Cute</td>
+                <td>Haircut</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
